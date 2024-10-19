@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+
+header 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200000;
+    background-color: white;
+}
+
+header .logo
+{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+header ul li
+{
+    list-style: none;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+#main {
+    position: relative;
+    background: #ffffff;
+    min-height: 100vh;
+    padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    color: black;
+}
+
+#main .content {
+    display: grid;
+    grid-gap: 70px;
+    margin: 50px 0;
+}
+
+#main .content .products {
+    position: relative;
+}
+
+#main .content .products img {
+    max-width: 20%;
+    min-height: 20%;
+}
+
+#main .content .text {
+    font-size: 2rem;
+}
+
+.contact p {
+    font-size: 1.3rem;
+}
+
+.contact img {
+    width: 1%;
+}
